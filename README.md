@@ -40,7 +40,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Matthew Njuguna & Sam Achola (Design from Behance)
-- 
+- [Unsplash](https://unsplash.com/)
 
 ## 📝 License
 
