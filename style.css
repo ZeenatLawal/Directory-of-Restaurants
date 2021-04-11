@@ -16,3 +16,8 @@
 .bg-main {
   background-color: #d45749;
 }
+
+.rounded-circle {
+  width: 250px;
+  height: 250px;
+}
