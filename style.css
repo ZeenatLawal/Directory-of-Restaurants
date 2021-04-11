@@ -4,3 +4,15 @@
   max-width: 100%;
   height: 100vh;
 }
+
+.fa-wifi {
+  transform: rotate(40deg);
+}
+
+.fa-phone {
+  transform: rotate(90deg);
+}
+
+.bg-main {
+  background-color: #d45749;
+}
