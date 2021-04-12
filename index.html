@@ -41,10 +41,16 @@
     <section class="main d-flex flex-column justify-content-center">
       <h2 class="text-light fw-bold fs-5 text-center mx-3">EASYSEARCH... RESTAURANTS ARE JUST A CLICK AWAY.</h2>
       <div>
-        <form action="#" class="bg-light rounded mx-3 main-search p-2">
-          <label for="text" class="fw-bold">SEARCH BY KEY WORD:</label>
-          <input type="text" id="text" class="w-100 light my-2 form-control">
-          <a href="search-results.html" class="w-100 bg-main form-control text-light text-decoration-none text-center">SEARCH</a>
+        <form action="#" class="bg-light rounded main-search">
+          <p class="fw-bold">SEARCH BY KEY WORD:</p>
+          <div class="row p-0">
+            <div class="col-12 col-md-9 pe-md-0">
+              <input type="text" id="text" class="my-2 my-md-0 form-control">
+            </div>
+            <div class="col-12 col-md-3 ps-md-0">
+              <a href="search-results.html" id="search" class="bg-main form-control text-light text-decoration-none text-center">SEARCH</a>
+            </div>
+          </div>
         </form>
       </div>
       <input type="button" value="How It Works" class="mt-4 mx-auto py-2 rounded border border-white main-search">

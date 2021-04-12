@@ -42,6 +42,11 @@ nav {
   background-color: #d45749;
 }
 
+form {
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
 .main-text {
   color: #d45749;
 }
@@ -136,6 +141,16 @@ nav {
   nav .far {
     font-size: 1.2rem;
   }
+
+  form .bg-main {
+    background-color: #457db4;
+  }
+
+  form {
+    width: 75%;
+    margin: 0 auto;
+    padding: 1rem 1rem 2rem 1rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -159,5 +174,9 @@ nav {
 
   .nav-bar .fa-wifi {
     margin-top: 0.4rem;
+  }
+
+  form .bg-main {
+    background-color: #d45749;
   }
 }
