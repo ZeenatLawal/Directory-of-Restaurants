@@ -89,5 +89,5 @@
 }
 
 .card {
-  width: 18rem;
+  max-width: 100%;
 }
