@@ -2,6 +2,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.header {
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.logo {
+  margin: 0 auto 1rem auto;
+}
+
+.show {
+  display: none;
+}
+
 .main {
   background: url(images/main.jpg) no-repeat center;
   background-size: cover;
@@ -90,4 +103,26 @@
 
 .card {
   max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .header h1 {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .show {
+    display: block;
+  }
 }
