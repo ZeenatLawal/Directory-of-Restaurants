@@ -122,6 +122,11 @@ form {
   max-width: 100%;
 }
 
+.steps .col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     flex-direction: row;
@@ -190,5 +195,10 @@ form {
 
   form .bg-main {
     background-color: #d45749;
+  }
+
+  .steps .col-12 {
+    flex: 0 0 auto;
+    width: 50%;
   }
 }
