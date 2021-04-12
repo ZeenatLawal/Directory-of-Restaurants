@@ -87,3 +87,7 @@
 .filter-clear {
   background-color: #e6ac5b;
 }
+
+.card {
+  width: 18rem;
+}
