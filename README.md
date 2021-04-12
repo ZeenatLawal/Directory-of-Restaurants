@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Directory-of-Resturants
+# Directory-of-Restaurants
 
-> Project 1: Positioning and floating elements
+> HTML & CSS Capstone Project (EasySearch - A online directory of restaurants)
 Created a New York Times article page clone following the original project specifications from https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
 
 ![screenshot](images/)
@@ -16,7 +16,7 @@ Project requirements included using semantic HTML, aside tag for editor's pick s
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://zeenatlawal.github.io/Directory-of-Resturants/)
 
 ## Authors
 
