@@ -10,8 +10,8 @@
   <title>EasySearch - Directory of restaurants</title>
 </head>
 <body>
-  <header class="d-flex bg-main flex-column p-1">
-    <div class="d-flex mx-auto mb-2">
+  <header class="d-flex bg-main flex-column p-3">
+    <div class="d-flex mx-auto mb-3">
       <a href="index.html"><i class="fas fa-utensils fs-1 text-light mt-1"></i></a>
       <a href="index.html" class="text-decoration-none text-light ps-1"><h1>EasySearch</h1></a>
     </div>
@@ -36,16 +36,16 @@
   </header>
   <main>
     <!-- Main -->
-    <section class="main">
-      <h2 class="text-light">EASYSEARCH... RESTAURANTS ARE JUST A CLICK AWAY</h2>
-      <div class="bg-light rounded">
-        <p>SEARCH BY KEY WORD:</p>
-        <form action="#"  class="input-group mb-3">
-          <input type="text" class="form-control" aria-describedby="addon1">
-          <span class="input-group-text" id="addon1">SEARCH</span>
+    <section class="main d-flex flex-column justify-content-center">
+      <h2 class="text-light fw-bold fs-5 text-center mx-3">EASYSEARCH... RESTAURANTS ARE JUST A CLICK AWAY.</h2>
+      <div class="">
+        <form action="#" class="bg-light rounded mx-3 main-search p-2">
+          <label for="text" class="fw-bold">SEARCH BY KEY WORD:</label>
+          <input type="text" id="text" class="w-100 light my-2 form-control">
+          <input type="button" value="SEARCH" class="w-100 bg-main form-control text-light">
         </form>
-        <input type="button" value="How It Works">
       </div>
+      <input type="button" value="How It Works" class="mt-4 mx-auto py-2 rounded border border-white main-search">
     </section>
     <!-- Steps -->
     <section>
