@@ -85,6 +85,10 @@ form {
   font-size: 7rem;
 }
 
+.steps p {
+  font-size: 1.25rem;
+}
+
 .bg-footer {
   background-color: black;
 }
@@ -150,6 +154,14 @@ form {
     width: 75%;
     margin: 0 auto;
     padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .steps .fas {
+    font-size: 3rem;
+  }
+
+  .steps p {
+    font-size: 1rem;
   }
 }
 
