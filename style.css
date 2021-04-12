@@ -201,4 +201,13 @@ form {
     flex: 0 0 auto;
     width: 50%;
   }
+
+  .more .flex-lg-row {
+    flex-direction: row !important;
+  }
+
+  .more-text {
+    text-align: left;
+    margin-right: 9rem;
+  }
 }
