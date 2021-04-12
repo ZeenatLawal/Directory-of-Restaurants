@@ -21,6 +21,10 @@
   background-color: #d45749;
 }
 
+.main-text {
+  color: #d45749;
+}
+
 .rounded-circle {
   width: 250px;
   height: 250px;
@@ -28,4 +32,8 @@
 
 .main-search {
   opacity: 0.9;
+}
+
+.steps .fas {
+  font-size: 7rem;
 }
