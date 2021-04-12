@@ -25,6 +25,26 @@
   color: #d45749;
 }
 
+.map {
+  background-color: #e17f65;
+}
+
+.map-text {
+  color: #e17f65;
+}
+
+.famous {
+  background-color: #99a5a6;
+}
+
+.famous-text {
+  color: #99a5a6;
+}
+
+.anytime {
+  background-color: #519cd7;
+}
+
 .rounded-circle {
   width: 250px;
   height: 250px;
