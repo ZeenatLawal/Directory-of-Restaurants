@@ -75,3 +75,15 @@
 .bg-social .fab {
   font-size: 1.5rem;
 }
+
+.filter {
+  background-color: #eee;
+}
+
+.filter-search {
+  background-color: #457db4;
+}
+
+.filter-clear {
+  background-color: #e6ac5b;
+}
