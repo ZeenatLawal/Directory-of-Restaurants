@@ -37,7 +37,8 @@
   background-color: #99a5a6;
 }
 
-.famous-text {
+.famous-text,
+.bg-social .fab {
   color: #99a5a6;
 }
 
@@ -56,4 +57,21 @@
 
 .steps .fas {
   font-size: 7rem;
+}
+
+.bg-footer {
+  background-color: black;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.bg-social {
+  background-color: #313131;
+}
+
+.bg-social .fab {
+  font-size: 1.5rem;
 }
