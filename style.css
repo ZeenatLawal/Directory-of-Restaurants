@@ -15,6 +15,14 @@
   display: none;
 }
 
+nav {
+  justify-content: center;
+}
+
+.nav-bar {
+  padding: 0 1.5rem;
+}
+
 .main {
   background: url(images/main.jpg) no-repeat center;
   background-size: cover;
@@ -119,10 +127,37 @@
   .header h1 {
     margin-bottom: 0;
   }
+
+  nav {
+    margin-top: auto;
+  }
+
+  nav .fas,
+  nav .far {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .show {
     display: block;
+  }
+
+  nav {
+    margin-top: 18px;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-content: center;
+  }
+
+  .nav-bar i {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .nav-bar .fa-wifi {
+    margin-top: 0.4rem;
   }
 }
