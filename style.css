@@ -339,4 +339,9 @@ form {
     grid-template-columns: 3fr 3fr 3fr;
     gap: 15px;
   }
+
+  .add-details p {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
 }
