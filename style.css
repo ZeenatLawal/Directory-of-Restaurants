@@ -146,6 +146,12 @@ form {
   justify-content: space-around;
 }
 
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     flex-direction: row;
@@ -223,6 +229,12 @@ form {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
   }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 10px 30px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -278,5 +290,11 @@ form {
   .filter-clear {
     font-size: 15px;
     padding: 7px 5px;
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 15px;
   }
 }
