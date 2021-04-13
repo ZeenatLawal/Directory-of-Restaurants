@@ -202,7 +202,7 @@ form {
     width: 50%;
   }
 
-  .more .flex-lg-row {
+  .more .flex-large-row {
     flex-direction: row !important;
   }
 
