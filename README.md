@@ -30,7 +30,7 @@ Project requirements included using semantic HTML, aside tag for editor's pick s
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/ZeenatLawal/Directory-of-Resturants/issues/1).
 
 ## Show your support
 
