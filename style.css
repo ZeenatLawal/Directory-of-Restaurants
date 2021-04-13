@@ -218,6 +218,11 @@ form {
   .footer-flex-top a {
     padding: 0 0.9rem;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -263,5 +268,15 @@ form {
 
   .footer-flex-top a {
     padding: 0 1.5rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 1fr 3fr;
+  }
+
+  .filter-clear {
+    font-size: 15px;
+    padding: 7px 5px;
   }
 }
