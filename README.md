@@ -1,18 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Directory-of-Restaurants
+# EasySearch - A Directory of Restaurants
 
 > HTML & CSS Capstone Project (EasySearch - A online directory of restaurants)
-Created a New York Times article page clone following the original project specifications from https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements
+A responsive website built following the original project specifications from [Microverse Capstone Project - Directory of Schools](https://www.notion.so/HTML-CSS-capstone-project-Directory-of-Schools-eea352bfaf3e4a83b2917df1f9a4e140)
 
 ![screenshot](images/)
 
-Project requirements included using semantic HTML, aside tag for editor's pick section, aligning elements using a combination of the float, flex and grid techniques.
+Project requirements included using semantic HTML tags, CSS selectors, HTML elements box model (margin, padding, width, height), Bootstrap, creating UIs adaptable to different screen sizes using mediaqueries and using industry-standard tools (flexbox) to place elements in the page. The project was created using the [design](https://www.behance.net/gallery/25563385/PatashuleKE) of Matthew Njuguna & Sam Achola (Behance).
+
+The project has 3 web pages - the main page, the search results page and the details page.
 
 ## Built With
 
 - HTML5
-- CSS3
+- CSS3 Media Queries
+- Bootstrap
 
 ## Live Demo
 
@@ -38,9 +41,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
 - Matthew Njuguna & Sam Achola (Design from Behance)
 - [Unsplash](https://unsplash.com/)
+- Icons gotten from [Font Awesome](https://fontawesome.com/)
 
 ## 📝 License
 
