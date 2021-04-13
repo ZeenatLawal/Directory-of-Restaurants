@@ -50,7 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Matthew Njuguna & Sam Achola (Design from Behance)
+- Matthew Njuguna & Sam Achola (Design from [Behance](https://www.behance.net/gallery/25563385/PatashuleKE))
 - Images from [Unsplash](https://unsplash.com/)
 - Icons from [Font Awesome](https://fontawesome.com/)
 
