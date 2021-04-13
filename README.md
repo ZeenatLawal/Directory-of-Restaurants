@@ -5,8 +5,13 @@
 > HTML & CSS Capstone Project (EasySearch - A online directory of restaurants)
 A responsive website built following the original project specifications from [Microverse Capstone Project - Directory of Schools](https://www.notion.so/HTML-CSS-capstone-project-Directory-of-Schools-eea352bfaf3e4a83b2917df1f9a4e140)
 
+### Main page
 ![screenshot](images/main-page.png)
+
+### Search results page
 ![screenshot](images/search-results.png)
+
+### Details page
 ![screenshot](images/details.png)
 
 Project requirements included using semantic HTML tags, CSS selectors, HTML elements box model (margin, padding, width, height), Bootstrap, creating UIs adaptable to different screen sizes using mediaqueries and using industry-standard tools (flexbox) to place elements on the page.
