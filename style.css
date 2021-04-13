@@ -173,6 +173,10 @@ form {
   margin: 0;
 }
 
+.add-details .fas {
+  margin-right: 4px;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     flex-direction: row;
@@ -266,6 +270,12 @@ form {
   .details button {
     width: 20%;
     font-size: 14px;
+  }
+
+  .add-details p {
+    font-size: 0.7rem;
+    padding: 0 5px;
+    border-right: 1px solid lightgray;
   }
 }
 
