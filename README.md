@@ -7,7 +7,9 @@ A responsive website built following the original project specifications from [M
 
 ![screenshot](images/)
 
-Project requirements included using semantic HTML tags, CSS selectors, HTML elements box model (margin, padding, width, height), Bootstrap, creating UIs adaptable to different screen sizes using mediaqueries and using industry-standard tools (flexbox) to place elements in the page. The project was created using the [design](https://www.behance.net/gallery/25563385/PatashuleKE) of Matthew Njuguna & Sam Achola (Behance).
+Project requirements included using semantic HTML tags, CSS selectors, HTML elements box model (margin, padding, width, height), Bootstrap, creating UIs adaptable to different screen sizes using mediaqueries and using industry-standard tools (flexbox) to place elements on the page.
+
+The project was created using the [design](https://www.behance.net/gallery/25563385/PatashuleKE) of Matthew Njuguna & Sam Achola (Behance).
 
 The project has 3 web pages - the main page, the search results page and the details page.
 
@@ -21,7 +23,7 @@ The project has 3 web pages - the main page, the search results page and the det
 
 [Live Demo Link](https://zeenatlawal.github.io/Directory-of-Resturants/)
 
-## Authors
+## Author
 
 👤 **Zeenat Lawal**
 
@@ -42,8 +44,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Matthew Njuguna & Sam Achola (Design from Behance)
-- [Unsplash](https://unsplash.com/)
-- Icons gotten from [Font Awesome](https://fontawesome.com/)
+- Images from [Unsplash](https://unsplash.com/)
+- Icons from [Font Awesome](https://fontawesome.com/)
 
 ## 📝 License
 
