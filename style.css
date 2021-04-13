@@ -152,6 +152,11 @@ form {
   align-items: center;
 }
 
+.map-img {
+  width: 100%;
+  padding: 10px;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     flex-direction: row;
