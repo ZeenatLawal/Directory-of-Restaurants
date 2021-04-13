@@ -157,6 +157,22 @@ form {
   padding: 10px;
 }
 
+.details button {
+  width: 37%;
+  font-size: 12px;
+}
+
+.more-details {
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+}
+
+.more-details p {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 0;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     flex-direction: row;
@@ -239,6 +255,17 @@ form {
     display: grid;
     grid-template-columns: 3fr 3fr;
     gap: 10px 30px;
+  }
+
+  .detail-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 5px;
+  }
+
+  .details button {
+    width: 20%;
+    font-size: 14px;
   }
 }
 
