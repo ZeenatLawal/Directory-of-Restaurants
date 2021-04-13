@@ -11,7 +11,8 @@
   margin: 0 auto 1rem auto;
 }
 
-.show {
+.show,
+.show-footer {
   display: none;
 }
 
@@ -72,7 +73,7 @@ form {
   background-color: #519cd7;
 }
 
-.rounded-circle {
+.more .rounded-circle {
   width: 250px;
   height: 250px;
 }
@@ -127,6 +128,24 @@ form {
   width: 100%;
 }
 
+.bg-footer-top {
+  border-top: 1px solid white;
+}
+
+.bg-footer-bottom {
+  border-bottom: 1px solid white;
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-flex-top {
+  display: flex;
+  justify-content: space-around;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     flex-direction: row;
@@ -167,6 +186,37 @@ form {
 
   .steps p {
     font-size: 1rem;
+  }
+
+  .show-footer {
+    display: block;
+  }
+
+  .bg-footer-top,
+  .bg-footer-bottom {
+    border: none;
+  }
+
+  .bg-footer-all {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: relative;
+  }
+
+  .footer-flex {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-flex-top {
+    justify-content: space-between;
+    font-size: 0.8rem;
+    align-items: center;
+  }
+
+  .footer-flex-top a {
+    padding: 0 0.9rem;
   }
 }
 
@@ -209,5 +259,9 @@ form {
   .more-text {
     text-align: left;
     margin-right: 9rem;
+  }
+
+  .footer-flex-top a {
+    padding: 0 1.5rem;
   }
 }
