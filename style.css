@@ -1,0 +1,345 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.logo {
+  margin: 0 auto 1rem auto;
+}
+
+.show,
+.show-footer {
+  display: none;
+}
+
+nav {
+  justify-content: center;
+}
+
+.nav-bar {
+  padding: 0 1.5rem;
+}
+
+.main {
+  background: url(images/main.jpg) no-repeat center;
+  background-size: cover;
+  max-width: 100%;
+  height: 100vh;
+}
+
+.fa-wifi {
+  transform: rotate(40deg);
+}
+
+.fa-phone {
+  transform: rotate(90deg);
+}
+
+.bg-main {
+  background-color: #d45749;
+}
+
+form {
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
+.main-text {
+  color: #d45749;
+}
+
+.map {
+  background-color: #e17f65;
+}
+
+.map-text {
+  color: #e17f65;
+}
+
+.famous {
+  background-color: #99a5a6;
+}
+
+.famous-text,
+.bg-social .fab {
+  color: #99a5a6;
+}
+
+.anytime {
+  background-color: #519cd7;
+}
+
+.more .rounded-circle {
+  width: 250px;
+  height: 250px;
+}
+
+.main-search {
+  opacity: 0.9;
+}
+
+.steps .fas {
+  font-size: 7rem;
+}
+
+.steps p {
+  font-size: 1.25rem;
+}
+
+.bg-footer {
+  background-color: black;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+  padding-right: 4.2px;
+}
+
+.bg-social {
+  background-color: #313131;
+}
+
+.bg-social .fab {
+  font-size: 1.5rem;
+}
+
+.filter {
+  background-color: #eee;
+}
+
+.filter-search {
+  background-color: #457db4;
+}
+
+.filter-clear {
+  background-color: #e6ac5b;
+}
+
+.card {
+  max-width: 100%;
+}
+
+.steps .col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.bg-footer-top {
+  border-top: 1px solid white;
+}
+
+.bg-footer-bottom {
+  border-bottom: 1px solid white;
+}
+
+.footer-flex,
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-flex-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container2 {
+  align-items: center;
+}
+
+.map-img {
+  width: 100%;
+  padding: 10px;
+}
+
+.details button {
+  width: 37%;
+  font-size: 12px;
+}
+
+.more-details {
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+}
+
+.more-details p {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.add-details .fas {
+  margin-right: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .header,
+  .footer-flex-top,
+  .footer-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .header h1 {
+    margin-bottom: 0;
+  }
+
+  nav {
+    margin-top: auto;
+    margin-right: 80px;
+  }
+
+  nav .fas,
+  nav .far {
+    font-size: 1.2rem;
+  }
+
+  form .bg-main {
+    background-color: #457db4;
+  }
+
+  form {
+    width: 75%;
+    margin: 0 auto;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .steps .fas {
+    font-size: 3rem;
+  }
+
+  .steps p {
+    font-size: 1rem;
+  }
+
+  .show-footer {
+    display: block;
+  }
+
+  .bg-footer-top,
+  .bg-footer-bottom {
+    border: none;
+  }
+
+  .bg-footer-all {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    position: relative;
+  }
+
+  .footer-flex-top {
+    font-size: 0.8rem;
+  }
+
+  .footer-flex-top a {
+    padding: 0 0.9rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+  }
+
+  .container2,
+  .detail-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+  }
+
+  .container2 {
+    gap: 10px 30px;
+  }
+
+  .detail-container {
+    gap: 5px;
+  }
+
+  .details button {
+    width: 20%;
+    font-size: 14px;
+  }
+
+  .add-details p {
+    font-size: 0.7rem;
+    padding: 0 5px;
+    border-right: 1px solid lightgray;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .show {
+    display: block;
+  }
+
+  nav {
+    margin-top: 18px;
+    margin-right: 0;
+  }
+
+  .nav-bar {
+    display: flex;
+    align-content: center;
+  }
+
+  .nav-bar i {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .nav-bar .fa-wifi {
+    margin-top: 0.4rem;
+  }
+
+  form .bg-main {
+    background-color: #d45749;
+  }
+
+  .steps .col-12 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .more .flex-large-row {
+    flex-direction: row !important;
+  }
+
+  .more-text {
+    text-align: left;
+    margin-right: 9rem;
+  }
+
+  .footer-flex-top a {
+    padding: 0 1.5rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 1fr 3fr;
+  }
+
+  .filter-clear {
+    font-size: 15px;
+    padding: 7px 5px;
+  }
+
+  .container2 {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap: 15px;
+  }
+
+  .add-details p {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+}
