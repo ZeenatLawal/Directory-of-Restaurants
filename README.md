@@ -28,7 +28,7 @@ The project has 3 web pages - the main page, the search results page and the det
 
 ## Live Demo
 
-[Live Demo Link](https://zeenatlawal.github.io/Directory-of-Resturants/)
+[Live Demo Link](https://zeenatlawal.github.io/Directory-of-Restaurants/)
 
 ## Author
 
