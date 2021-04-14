@@ -30,6 +30,25 @@ The project has 3 web pages - the main page, the search results page and the det
 
 [Live Demo Link](https://zeenatlawal.github.io/Directory-of-Restaurants/)
 
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- Web browser (e.g. Google chrome or Firefox)
+- Code Editor (e.g. Vscode or Atom)
+
+### Cloning the repo
+
+- Copy this link [Directory-of-Restaurants](https://github.com/ZeenatLawal/Directory-of-Restaurants.git)
+- Open your terminal or command line in the folder you want the project to be
+- Run the command git clone with the link you copied above `git clone https://github.com/ZeenatLawal/Directory-of-Restaurants.git`
+- Open the folder with your code editor and run the index.html file using a live server
+
+
+
 ## Author
 
 👤 **Zeenat Lawal**
