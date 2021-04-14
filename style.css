@@ -97,6 +97,7 @@ form {
 .footer-nav a {
   text-decoration: none;
   color: white;
+  padding-right: 4.2px;
 }
 
 .bg-social {
