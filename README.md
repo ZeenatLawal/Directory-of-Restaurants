@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # EasySearch - A Directory of Restaurants
 
 > HTML & CSS Capstone Project (EasySearch - A online directory of restaurants)
